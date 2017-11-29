@@ -16,16 +16,21 @@ The `solution` branch contains a solution for the basic functionality. **Warning
 # Baseline Functionality
 
 ## Initial State
+
 * The application should initially appear with a grid of 9 placeholder images in 3 rows.
 * Above the grid, there should be a dropdown (select) menu for selecting a *Genre*.
 * Above the grid, there should be a text input box for entering a *Release Year*.
 * Above the grid, there should be a button labeled "Go!"
+
+![initial state](https://github.com/firststepcoding/top9/blob/begin/img/initial-view.jpg?raw=true)
 
 ## Results State
 
 * After a user enters search criteria and clicks the "Go!" button, the application should query [https://api.themoviedb.org](https://api.themoviedb.org) for movies that match the criteria.
 * The movies should be returned in order of decreasing popularity, with the most popular movies returned first.
 * The 9 placeholder images in the grid should be replaced with the cover images of the top 9 movies matching the provided criteria.
+
+![initial state](https://github.com/firststepcoding/top9/blob/begin/img/after.jpg?raw=true)
 
 # API Interactions
 
