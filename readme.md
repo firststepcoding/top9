@@ -13,7 +13,7 @@ You will need to set the `apiKey` string in your application to an API key provi
 The `solution` branch contains a solution for the basic functionality. **Warning: this solution branch is a "spoiler." We highly recommend that you struggle with this project to achieve the satisfaction that comes with solving it for yourself.** After you have your own working solution, you should then check out the `solution` branch to see how your own solution compares.
 
 
-# Baseline Functionality
+# Basic Functionality
 
 ## Initial State
 
@@ -54,3 +54,15 @@ To save you the trouble, here's a list of *Genre* ids you can use in your select
 * History = 36
 * Horror = 27
 * Music = 10402
+
+# Extended Functionality
+
+This is the creative part of the project. Once you have the basic functionality working, it's up to you were you a take it! 
+
+Here are a few ideas to get started:
+
+* Customize the look and feel of the application with your own CSS.
+* Add a custom footer below the grid.
+* Add additional search criteria above the grid. Work them into your API requests.
+* Automatically updates to the movie list whenever the user changes a value, so you don't need to use the "Go!" button.
+* Add checkboxes for ratings: G, PG, PG-13, and R. Use client-side filtering to only display movies in the top 9 that have a rating matching one of the current selections. Automatically update the application whenever the user checks or unchecks a rating. (Hint: you may want to cache the data client-side to make this easier. You can do this by simply storing the API results in a global variable)
