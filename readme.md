@@ -36,7 +36,7 @@ The `solution` branch contains a solution for the basic functionality. **Warning
 
 In order to load movie data, your application will need to set custom query parameters and interface with the JSON-based Discover API at [https://api.themoviedb.org](https://api.themoviedb.org) 
 
-You can find example queries to the Disover API here: [https://www.themoviedb.org/documentation/api/discover](https://api.themoviedb.org) 
+You can find example queries to the Disover API here: [https://www.themoviedb.org/documentation/api/discover](https://www.themoviedb.org/documentation/api/discover) 
 
 Note that some fields like *Genre* have corresponding ids that you can look up via this API call: [https://developers.themoviedb.org/3/genres/get-movie-list](https://developers.themoviedb.org/3/genres/get-movie-list) 
 
