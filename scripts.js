@@ -45,6 +45,8 @@ function afterDataLoaded(dataObject){
   /* For each result:
     - Look up a corresponding img element (in order)
     - Set the img element's src tag to posterBaseUrl + the poster_path from the result movie
+    - HINT: Check out JQuery's attr() function for helping with the above, documented here: http://api.jquery.com/attr/
+    - You may also want to revisit Replit exercises 7.2 - 8.4
    */
   for(var i=0; i<dataObject.results.length; i++){
     $('#movieImg' + i).attr('src', posterBaseUrl + dataObject.results[i].poster_path);
