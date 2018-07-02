@@ -57,7 +57,7 @@ To save you the trouble, here's a list of *Genre* ids you can use in your select
 
 # Extended Functionality
 
-This is the creative part of the project. Once you have the basic functionality working, it's up to you were you a take it! 
+This is the creative part of the project. Once you have the basic functionality working, it's up to you where you a take it! 
 
 Here are a few ideas to get started:
 
